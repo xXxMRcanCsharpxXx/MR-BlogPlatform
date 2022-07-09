@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+body {
+    background-image: url("~C:\Users\Miguel\Pictures\BlogBG.jpg");
+    margin: 0;
+}
