@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  color: antiquewhite
 }
 
 @media (min-width: 768px) {
@@ -13,11 +14,33 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
+
+
 
 body {
     background-image: url("~C:\Users\Miguel\Pictures\BlogBG.jpg");
     margin: 0;
+    background-color: lightblue;
+    margin-bottom: 60px;
 }
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+thead {
+    background-color: darkblue;
+    color: white;
+}
+
+a:hover {
+    background-color: blue;
+    font-size: 18px;
+    transition: .25s;
+    transform: scale(1.07);
+}
+
