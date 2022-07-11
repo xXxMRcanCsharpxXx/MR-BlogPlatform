@@ -1,6 +1,6 @@
 html {
   font-size: 14px;
-  color: antiquewhite
+ 
 }
 
 @media (min-width: 768px) {
@@ -35,6 +35,7 @@ tr:nth-child(odd) {
 thead {
     background-color: darkblue;
     color: white;
+    border-color: black;
 }
 
 a:hover {
@@ -44,3 +45,17 @@ a:hover {
     transform: scale(1.07);
 }
 
+tbody {
+    border-color: black;
+    border: 1px solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+th, tr, dl {
+    border: 1px solid;
+    border-color: black;
+}
+table{
+    border-color:black;
+}
